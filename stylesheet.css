@@ -218,7 +218,7 @@ li:focus-within > button > .arrow {
 [class*="col-"] {
     float: left;
     text-align: center;
-    border: solid black 2px;
+    border: solid black 1px;
 
 }
 .col-tabs-1 {width: 4%;}.col-tabs-2 {width: 8%;}.col-tabs-3 {width: 12%;}.col-tabs-4 {width: 16%;}.col-tabs-5 {width: 20%;}.col-tabs-6 {width: 24%;}.col-tabs-7 {width: 28%;}.col-tabs-8 {width: 32%;}.col-tabs-9 {width: 36%;}.col-tabs-10 {width: 40%;}.col-tabs-11 {width: 44%;}.col-tabs-12 {width: 48%;}.col-tabs-13 {width: 52%;}.col-tabs-14 {width: 56%;}.col-tabs-15 {width: 60%;}.col-tabs-16 {width: 64%;}.col-tabs-17 {width: 68%;}.col-tabs-18 {width: 72%;}.col-tabs-19 {width: 76%;}.col-tabs-20 {width: 80%;}.col-tabs-21 {width: 84%;}.col-tabs-22 {width: 88%;}.col-tabs-23 {width: 92%;}.col-tabs-24 {width: 96%;}.col-tabs-25 {width: 100%;}
