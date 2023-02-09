@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- nav bar icon -->
+  </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <header>
+          <a id="logoA" href="index.html"><img id="logoNav" src="logoNavBar.jpg"></a>
+          <a href="index.html">Home</a>
+          <a href="timetable.html">Timetable for 2020</a>
+          <div class="dropdown">
+            <button class="dropbtn">Services 
+              <span class="arrow">
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="lowerbackpain.html">Lower Back Pain</a>
+              <a href="weightmanagement.html">Weight Management and/or Diabetes</a>
+              <a href="exercisereferral.html">Exercise Referral</a>
+              <a href="matpilates.html">Mat Pilates</a>
+              <a href="zumbagold.html">Zumba Gold</a>
+              <a href="nutrition.html">Nutrition</a>
+            </div>
+          </div> 
+          <a href="contactus.html">Contact</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </header>
+      </div>  
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      <footer class="footer-distributed">
+
+          <div class="footer-left">
+              <img src="logoNavBar.jpg">
+            <h3>by Grainne Fogarty</h3>
+    
+            <p class="footer-links">
+              <a href="index.html">Home</a>
+              |
+              <a href="timetable.html">Timetable for 2020</a>
+              |
+              <a href="lowerbackpain.html">Lower Back Pain</a>
+              |
+              <a href="weightmanagement.html">Weight Management</a>
+              |
+              <a href="exercisereferral.html">Exercise Referral</a>
+              |
+              <a href="matpilates.html">Mat Pilates</a>
+              |
+              <a href="zumbagold.html">Zumba Gold</a>
+              |
+              <a href="nutrition.html">Nutrition</a>
+
+            </p>
+    
+            <p class="footer-company-name">&copy; Headland Consulting Limited</p>
+          </div>
+    
+          <div class="footer-center">
+            <!-- <div>
+              <i class="fa fa-map-marker"></i>
+                <p><span>309 - Rupa Solitaire,
+                 Bldg. No. A - 1, Sector - 1</span>
+                Mahape, Navi Mumbai - 400710</p>
+            </div> -->
+    
+            <div>
+              <i class="fa fa-phone"></i>
+              <p><a href="tel:07788489894">07788 489894</a></p>
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:info@kit-fit.co.uk">info@kit-fit.co.uk</a></p>
+            </div>
+          </div>
+          <div class="footer-right">
+            <p class="footer-company-about">
+              <span>About Us</span>
+              <b>Small paragraph here. 20-30 words.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum, dui sit amet aliquam rhoncus, velit lorem pretium felis, sit.
+            </p>
+          </div>
+      </footer>
+    </body>
+</html>
